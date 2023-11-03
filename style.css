@@ -1,0 +1,111 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+	text-align: center;
+	background-image: url(./Assets/natal2.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Cinzel', serif;
+	
+}
+
+
+
+.boxTime, .box{
+	display: flex;
+    margin-left: 450px;
+}
+
+.data {
+	display: flex;
+	font-size: 2.2em;
+	flex-direction: column;
+	margin: 0 15px;
+}
+
+
+
+.box{
+        display: flex;
+		font-size: 3rem;
+        background: linear-gradient(45deg, #ffffff, rgb(251, 4, 4), #c33e3e, #ffffff);
+        background-size: 400% 100%;
+        animation: degrade 15s linear infinite alternate;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+		font-family: 'Parisienne', cursive;
+		
+    }
+    
+    @keyframes degrade {
+        0% {
+            background-position: 0%;
+        }
+    
+        100% {
+            background-position: 400%;
+        }
+}
+
+
+img{
+	width: 90px;
+	margin-top: 20px;
+}
+ p {
+	margin-bottom: 0;
+	font-size: 4rem;
+
+}
+
+@media (max-width:1000px){
+
+	body {
+		background-color: #30624e;
+	}
+   
+	.boxTime, .box{
+		display: flex;
+		font-size: 40px;
+		width: 500px;
+		margin-right: 328px;
+	
+}
+
+.boxTime{
+	display: flex;
+	font-size: 10px;
+	
+	}
+
+	.data{
+		margin: 0 5px;
+	}
+
+	.box{
+		margin-right: 450px;
+		
+	}
+	
+}
+
+
+
+
+
+
+
+
