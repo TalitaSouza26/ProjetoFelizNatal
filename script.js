@@ -1,5 +1,5 @@
 const body = document.body;
-const endTime = new Date('December 24 2023 23:59:59');
+const endTime = new Date('December 24 2024 23:59:59');
 const dias = document.getElementById('dia');
 const horas = document.getElementById('hora');
 const minutos = document.getElementById('minuto');
